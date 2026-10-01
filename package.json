@@ -1,0 +1,46 @@
+{
+  "name": "mcp-yandex-search",
+  "version": "0.1.0",
+  "description": "MCP-сервер: статистика Яндекс Вордстата и поиск Яндекса",
+  "type": "module",
+  "bin": {
+    "mcp-yandex-search": "src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "keywords": [
+    "mcp",
+    "yandex",
+    "wordstat",
+    "search",
+    "seo",
+    "keywords"
+  ],
+  "license": "MIT",
+  "author": "kvdecvlt",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvdecvlt/mcp-yandex-search.git"
+  },
+  "homepage": "https://github.com/kvdecvlt/mcp-yandex-search#readme",
+  "bugs": {
+    "url": "https://github.com/kvdecvlt/mcp-yandex-search/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.31.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.9"
+  }
+}
